@@ -19,7 +19,7 @@ export JOB_CACHE_DIR="${CACHE_BASE}/${SLURM_JOB_NAME}-${SLURM_JOB_ID}"
 mkdir -p ${JOB_CACHE_DIR}
 rm -rf "${JOB_CACHE_DIR}"/*
 
-cd $HOME/cweb
+cd $HOME/cweb-runs
 
 source venv1/bin/activate
 
