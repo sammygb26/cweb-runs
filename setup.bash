@@ -1,6 +1,6 @@
-cd $HOME/cweb-runs
+#!/bin/bash
 
-python3 -m venv venv --prompt "cweb-runs"
+python3.11 -m venv venv --prompt "cweb-runs"
 
 source venv/bin/activate
 
